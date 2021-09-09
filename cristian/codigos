@@ -1,0 +1,127 @@
+Microsoft Windows [Versión 10.0.19043.1165]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Lenovo ideapad>git --version
+git version 2.33.0.windows.2
+
+C:\Users\Lenovo ideapad>c:
+
+C:\Users\Lenovo ideapad>cd C:\PROGRAVACIONduberli
+
+C:\PROGRAVACIONduberli>git clone https://github.com/zavaleta3002/programacionDuberli.git
+Cloning into 'programacionDuberli'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+
+C:\PROGRAVACIONduberli>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\PROGRAVACIONduberli>git git status
+git: 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+C:\PROGRAVACIONduberli>dir
+ El volumen de la unidad C es Windows-SSD
+ El número de serie del volumen es: 628E-058A
+
+ Directorio de C:\PROGRAVACIONduberli
+
+08/09/2021  17:50    <DIR>          .
+08/09/2021  17:50    <DIR>          ..
+08/09/2021  17:53    <DIR>          programacionDuberli
+               0 archivos              0 bytes
+               3 dirs  35,085,328,384 bytes libres
+
+C:\PROGRAVACIONduberli>cd programacionDuberli
+
+C:\PROGRAVACIONduberli\programacionDuberli>dir
+ El volumen de la unidad C es Windows-SSD
+ El número de serie del volumen es: 628E-058A
+
+ Directorio de C:\PROGRAVACIONduberli\programacionDuberli
+
+08/09/2021  17:53    <DIR>          .
+08/09/2021  17:53    <DIR>          ..
+08/09/2021  17:50               231 .gitignore
+08/09/2021  17:54                33 Duberli.txt
+08/09/2021  17:50                21 README.md
+               3 archivos            285 bytes
+               2 dirs  35,085,283,328 bytes libres
+
+C:\PROGRAVACIONduberli\programacionDuberli>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Duberli.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\PROGRAVACIONduberli\programacionDuberli>git config --global user.name "xxxxxxxxxxxx"
+
+C:\PROGRAVACIONduberli\programacionDuberli>git config --global user.email "xxxxxxxxxx"
+
+C:\PROGRAVACIONduberli\programacionDuberli>git add -A
+
+C:\PROGRAVACIONduberli\programacionDuberli>git add -A .
+
+C:\PROGRAVACIONduberli\programacionDuberli>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Duberli.txt
+
+
+C:\PROGRAVACIONduberli\programacionDuberli>git commit -a -m "primera prueba"
+[main 521ff79] primera prueba
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Duberli.txt
+
+C:\PROGRAVACIONduberli\programacionDuberli>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\PROGRAVACIONduberli\programacionDuberli>git pull
+Already up to date.
+
+C:\PROGRAVACIONduberli\programacionDuberli>git push
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 352 bytes | 117.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/zavaleta3002/programacionDuberli.git
+   e8072ec..521ff79  main -> main
+
+C:\PROGRAVACIONduberli\programacionDuberli>dir
+ El volumen de la unidad C es Windows-SSD
+ El número de serie del volumen es: 628E-058A
+
+ Directorio de C:\PROGRAVACIONduberli\programacionDuberli
+
+08/09/2021  17:53    <DIR>          .
+08/09/2021  17:53    <DIR>          ..
+08/09/2021  17:50               231 .gitignore
+08/09/2021  17:54                33 Duberli.txt
+08/09/2021  17:50                21 README.md
+               3 archivos            285 bytes
+               2 dirs  34,840,432,640 bytes libres
+
+C:\PROGRAVACIONduberli\programacionDuberli>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
