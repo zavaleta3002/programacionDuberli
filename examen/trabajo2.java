@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Examen_CDZC{ 
+class Examen_GFYM{ 
 static Scanner sc = new Scanner(System.in);
 
 static void bono(){
@@ -20,3 +20,4 @@ static void bono(){
     if(puntos>=401)
         bono=S_minimo*0.80;
     System.out.println("Valor de bono: " + bono);
+}
